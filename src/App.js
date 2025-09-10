@@ -5,9 +5,9 @@ import { DefaultLayout } from './components/Layout';
 
 function App() {
   return (
+    // Xu ly route cho app
     <BrowserRouter>
       <div className="App">
-        // Xu ly route cho app
         <Routes>
           {publicRoutes.map((route, index) => {
             const Page = route.component;
